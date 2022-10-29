@@ -112,3 +112,12 @@ retirer tout ce que vous avez fait !!
 le fichier babel.config.json est utilisé lors de l'utilisation d'un monorepo ET pour compiler les dépendances tel que les node_modules ou vos libraries locales
 
 documentation : https://babeljs.io/docs/en/configuration
+
+## @nrwl/react:app : serve en echec lorsque la lib utilise un package local
+
+- changez le nom du fichier `.babelrc` en `babel.config.json`
+
+## @nrwl/react:storybook : lancement en echec lorsque la lib utilise un package local
+
+- Ajouter un fichier `babel.config.json`
+- recopiez le contenu du `babel.config.json` de votre librairie (ou de votre app react)
