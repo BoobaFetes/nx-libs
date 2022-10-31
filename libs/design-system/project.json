@@ -32,7 +32,7 @@
     "publish": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "node tools/scripts/publish.mjs core {args.ver} {args.tag}"
+        "command": "node tools/scripts/publish.mjs design-system {args.ver} {args.tag}"
       },
       "dependsOn": ["build"]
     },
