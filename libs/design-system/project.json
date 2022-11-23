@@ -9,6 +9,7 @@
       "executor": "@nrwl/web:rollup",
       "outputs": ["{options.outputPath}"],
       "options": {
+        "buildableProjectDepsInPackageJsonType": "dependencies",
         "outputPath": "dist/libs/design-system",
         "tsConfig": "libs/design-system/tsconfig.lib.json",
         "project": "libs/design-system/package.json",
